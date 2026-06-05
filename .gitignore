@@ -1,0 +1,23 @@
+.DS_Store
+
+# Secrets and machine-local auth/state.
+.zshenv
+.npmrc
+hosts.yml
+auth.json
+credentials
+id_*
+*.pem
+*.key
+*.sqlite
+*.sqlite-*
+
+# Generated dependency/cache directories.
+node_modules/
+.cache/
+plugged/
+pack/
+lazy/
+swap/
+backup/
+undo/

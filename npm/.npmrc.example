@@ -1,0 +1,4 @@
+registry=https://registry.npmjs.org/
+
+# If you need GitHub Packages, configure this locally only:
+# //npm.pkg.github.com/:_authToken=${GITHUB_NPM_TOKEN}

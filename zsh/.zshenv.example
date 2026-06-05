@@ -1,0 +1,5 @@
+# Copy to ~/.zshenv only for machine-local secrets or environment values.
+# Do not commit the real ~/.zshenv.
+
+export JIRA_EMAIL="you@example.com"
+export JIRA_API_TOKEN="replace-me"

@@ -40,3 +40,7 @@ Keep oh-my-zsh for the first machine transfer because the current `.zshrc` expec
 The `Brewfile` includes current tools and adds preferred utilities:
 
 `fd`, `bat`, `fzf`, `eza`, `zoxide`, `delta`, `yq`, `rg`, `jq`, `tree`, `gh`, `lazygit`, `tmux`, `neovim`, `nvm`, `bun`, `pyenv`, `awscli`, `sops`, and `terraform`.
+
+## Historical Setup Script
+
+There is an older laptop setup script on the source machine at `/Users/monte.williams/studio/laptop-setup/monte-build.sh`. It is useful background, but this repo does not run or vendor it directly. See `docs/laptop-setup-review.md`.

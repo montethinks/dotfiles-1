@@ -27,3 +27,4 @@ Known source-machine notes:
 - `~/.zshenv` and `~/.npmrc` contained tokens and were replaced with examples.
 - The current Neovim config uses lazy.nvim and plugins pinned in `lazy-lock.json`.
 - The tmux config is tuned for `tmux-256color`, Ghostty truecolor, macOS `pbcopy`, mouse support, and Alt-hjkl pane navigation.
+- A historical laptop setup script exists at `/Users/monte.williams/studio/laptop-setup/monte-build.sh`; use `docs/laptop-setup-review.md` before reusing anything from it.

@@ -18,6 +18,12 @@ This repo intentionally excludes secrets and machine-local state. Do not copy `~
 ## Install
 
 ```sh
+./scripts/bootstrap-macos.sh
+```
+
+For a lighter dotfiles-only run:
+
+```sh
 ./install.sh
 brew bundle --file Brewfile
 ```
@@ -44,3 +50,7 @@ The `Brewfile` includes current tools and adds preferred utilities:
 ## Historical Setup Script
 
 There is an older laptop setup script on the source machine at `/Users/monte.williams/studio/laptop-setup/monte-build.sh`. It is useful background, but this repo does not run or vendor it directly. See `docs/laptop-setup-review.md`.
+
+## Visual Terminal Setup
+
+Legacy terminal profiles and Powerline fonts are preserved in `assets/`. See `docs/visual-terminal-setup.md` after running the bootstrap.

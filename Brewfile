@@ -37,5 +37,6 @@ brew "noovolari/brew/leapp-cli-darwin-arm64"
 
 cask "codex"
 cask "copilot-cli"
+cask "ghostty"
 cask "session-manager-plugin"
 cask "visual-studio-code"

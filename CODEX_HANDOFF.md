@@ -6,6 +6,7 @@ Initial decisions:
 
 - Keep oh-my-zsh for the first transfer.
 - Preserve tmux + Ghostty + Neovim behavior.
+- Preserve legacy Solarized/Railscasts terminal profiles and Powerline fonts from `assets/`.
 - Use `~/.config/nvim/init.lua` as canonical Neovim config.
 - Exclude `~/.zshenv`, `~/.npmrc`, `~/.config/gh/hosts.yml`, and all auth/session/cache directories.
 - Install `fd`, `bat`, `fzf`, `eza`, `zoxide`, `delta`, `yq`, `gh`, `lazygit`, `tmux`, and `neovim`.
@@ -28,3 +29,4 @@ Known source-machine notes:
 - The current Neovim config uses lazy.nvim and plugins pinned in `lazy-lock.json`.
 - The tmux config is tuned for `tmux-256color`, Ghostty truecolor, macOS `pbcopy`, mouse support, and Alt-hjkl pane navigation.
 - A historical laptop setup script exists at `/Users/monte.williams/studio/laptop-setup/monte-build.sh`; use `docs/laptop-setup-review.md` before reusing anything from it.
+- For fastest setup on a new Mac, start with `./scripts/bootstrap-macos.sh`, then follow `docs/visual-terminal-setup.md`.

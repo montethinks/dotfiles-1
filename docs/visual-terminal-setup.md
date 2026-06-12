@@ -22,6 +22,22 @@ This repo preserves the terminal look from the older dotfiles repo.
 5. Open a new shell and confirm that `zsh-git-prompt` renders git status cleanly.
 6. Start tmux and confirm truecolor with Neovim.
 
+## Prompt Match
+
+The current prompt is produced by zsh plus `zsh-git-prompt`, not by the oh-my-zsh theme alone. The managed `.zshrc` sets:
+
+```zsh
+PROMPT='%B%m%~%b$(git_super_status) %# '
+```
+
+That should render like:
+
+```text
+MacBook-Air-6~/projects/payment-center[main|...1] %
+```
+
+It will match after `~/zsh-git-prompt` exists, the managed `.zshrc` is linked, and a new zsh session is opened.
+
 ## Current Preference
 
 The current setup keeps oh-my-zsh for the first transfer and uses `zsh-git-prompt` for the git display. Longer term, decide whether to keep that or switch to Starship.
